@@ -1,5 +1,5 @@
 class Student < User
   def learn(string)
-    string
+    self.knowledge << string
   end
 end
